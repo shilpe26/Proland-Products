@@ -16,7 +16,14 @@ body {
     border-radius: 5px;
     text-align: center;
     color: black;
-    
+    }
+.backbg2{
+    background-color: lightpink;
+    display: block;
+    width: 98%;
+    background-size: cover;
+    margin: 60px auto;
+    border-radius: 10px;
 }
 
 .product{
