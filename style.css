@@ -18,12 +18,7 @@ body {
     color: black;
     
 }
-.backyellow{
-    background-image: url("images/yellow.webp");
-    transition-duration: 1.5;
-    width: auto;
-    background-size: cover;
-}
+
 .product{
     background-color: palegoldenrod;
 }
@@ -55,6 +50,9 @@ body {
 .navbar-header{
     background-color: hsl(45, 50%, 90%);
     font-size: 40px;
+}
+.navbar-brand{
+    color: palevioletred;
 }
 .navbar{
     justify-self: right;
@@ -164,7 +162,7 @@ main {
   margin-top: 20px;
 }
 
-.product-section {
+.product-section{
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -174,6 +172,7 @@ main {
   padding-bottom: 10px;
     border-color: deeppink ;
     border-width: medium;
+   
 }
 #img{
     height:auto;
@@ -345,3 +344,5 @@ footer p {
 .text-center{
     text-align: center;
 }
+
+    
