@@ -25,7 +25,13 @@ body {
     margin: 60px auto;
     border-radius: 10px;
 }
-
+.headnav{
+padding: 7px;
+background-color: lightpink;
+top: 0;
+width: 100%;
+border : solid 2px deeppink;
+}
 .product{
     background-color: palegoldenrod;
 }
