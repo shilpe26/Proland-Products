@@ -8,14 +8,14 @@ body {
   font-family: "Raleway", Helvetica, sans-serif;
 }
 .backbg{
-   background-color: lightpink;
+   background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
     width: 100%;
     border-radius: 5px;
     text-align: center;
     color: black;
     }
 .backbg2{
-    background-color: lightpink;
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0.2), rgba(255, 0, 0, 0.4)); /* Standard syntax (must be last) */
     display: block;
     width: 98%;
     background-size: cover;
@@ -28,7 +28,7 @@ body {
 }
 .headnav{
 padding: 7px;
-background-color: lightpink;
+background-image: linear-gradient(to right, pink,deeppink);
 top: 0;
 width: 100%;
 border : solid 2px deeppink;
@@ -48,11 +48,21 @@ border : solid 2px deeppink;
     text-align:center;
     font-family: monospace;
 }
-.product:hover{
-    transform: scale(1.05);
+.img1{
+    display: block;
+    width: 60%;
+    margin: auto;
 }
-.facility:hover{
-    transform: scale(1.05);
+.img3{
+    display: block;
+    width: 80%;
+    margin: auto;
+}
+.imgg{
+    display: block;
+    margin: auto;
+    width: 100%;
+    background-size: cover;
 }
 #description{
     font-size: 20px;
@@ -64,10 +74,10 @@ border : solid 2px deeppink;
 #heading{
     font-size: 40px;
     font-family: Impact, Charcoal, sans-serif;
-    margin-top: 90px;
+    margin-top: 100px;
     }
 .navbar-header{
-    background-color: hsl(45, 50%, 90%);
+    background-image: linear-gradient(to right, pink,deeppink);
     font-size: 40px;
 }
 .navbar-brand{
@@ -75,7 +85,7 @@ border : solid 2px deeppink;
 }
 .navbar{
     justify-self: right;
-   background-color: hsl(45, 50%, 90%);
+   background-image: linear-gradient(to right, pink,deeppink);
     font-size: 40px;
 }
 .navbar-nav{
@@ -191,19 +201,26 @@ main {
   padding-bottom: 10px;
     border-color: deeppink ;
     border-width: medium;
-   
-}
-#img{
-    height:auto;
-}
-
+   }
 .product-header {
   margin-bottom: -20px;
    border-color: deeppink;
     height: 90px;
+    align-content: center;
+    text-align: center;
+    background-size: cover;
 }
 .product-types{
-    height: 70%;
+    display: flex;
+    height: 100%;
+   background-size: cover;
+     display: grid;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    flex-direction: column;
+   
 }
 
 .product-price {
@@ -216,17 +233,36 @@ main {
 .product-desc {
   list-style: none;
 }
+#img{
+    max-width: 100%;
+    height:auto;
+}
+.block1:hover{
+    transform: scale(1.05);
+}
+.block{
+    height: 70%;
+}
 
+
+.text{
+    text-align: center;
+}
+.block2:hover{
+    transform: scale(1.05);
+}
 footer {
   background-color: hsl(45, 50%, 90%);
-  margin-top: 50px;
+  margin-top: 70px;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   padding: 10px;
   padding-bottom: 0px;
 }
-
+.product-section:hover{
+    transform: scale(1.05);
+}
 #footer-nav {
   display: flex;
   grid-gap: 10px;
